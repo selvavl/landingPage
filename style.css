@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    border: solid 0px orangered;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+}
+
+header > * {
+    margin: 2rem 15rem;
+    display: flex;
+
+}
+
+header > h2 {
+    font-size: 24px;
+}
+
+.header-li {
+    margin: 0 0.5rem;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a { text-decoration: none; color: inherit; }
+a:visited { text-decoration: none; color: inherit; }
+a:hover { text-decoration: none; color: inherit; }
+a:focus { text-decoration: none; color: inherit; }
+a:hover, a:active { text-decoration: none; color: inherit; }
+
+#section-one {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    padding:  4rem 8rem;
+}
+
+#panel-one {
+    width: 40vw;
+    padding: 6rem;
+    
+}
+
+#panel-one > * {
+    margin: 0.5rem;
+}
+
+#panel-one > a > button {
+    color:#f9faf8;
+    background-color: #3882f6;
+    padding: 0.25rem 1rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size:  48px;
+}
+
+#section-one > div > p {
+    font-size: 18px;
+}
+
+#spansize {
+    width: 600px;
+}
+
+#panel-two {
+    border-radius: 1rem;
+    width: 40vw;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('././images/catPanel.jpg');
+
+}
+
+
+#section-two > h2 {
+    text-align: center;
+    padding: 3rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+#info-card {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 15rem;
+    padding-bottom: 6rem;
+
+}
+
+.texcol2 {
+    color: #1F2937;
+}
+
+.catimg {
+    width: 250px;
+    height: auto;
+    border: solid 5px #3882f6;
+    border-radius: 1rem;
+    margin: 1rem;
+    
+}
+
+.cat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#section-three {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 4rem;
+} 
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    width: 50vw;
+    padding: 2rem;
+}
+
+#quote1 {
+    font-style: italic;
+    font-weight: 100;
+    text-align: justify;
+}
+
+#quote2 {
+    text-align: right;
+    font-size: 24px;
+   
+}
+
+#calldiv {
+    display: flex;
+    justify-content: center;
+}
+
+#bluediv {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    margin: 4rem;
+    background-color: #3882f6;
+    color:#f9faf8 ;
+    border-radius: 0.5rem;
+}
+
+#bluediv > a > button {
+    color:#f9faf8;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-width: 1px;
+    padding: 0.25rem 1rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 2rem;
+}
